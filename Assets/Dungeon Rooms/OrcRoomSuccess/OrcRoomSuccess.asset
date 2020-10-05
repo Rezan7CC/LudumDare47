@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: OrcRoomSuccess
+  m_EditorClassIdentifier: 
+  roomText: {fileID: 4900000, guid: a6e1d0c4da0ca094cb5734860eda92bc, type: 3}
+  roomID: OrcRoomSuccess
+  dungeonRoomOptions:
+  - optionName: Take torch
+    requiredItem: 0
+    itemReward: 1
+    completedText: {fileID: 4900000, guid: bd3ba1325d32c4f4babd5ffdf97cadf1, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Pick up wooden club
+    requiredItem: 0
+    itemReward: 6
+    completedText: {fileID: 4900000, guid: 0a44392f3c11183448ad7ae156efa963, type: 3}
+    nextRoomID: EnteredDungeon

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: OrcRoom
+  m_EditorClassIdentifier: 
+  roomText: {fileID: 4900000, guid: 69ac996b5c44ed944a18ead94a7fe6a6, type: 3}
+  roomID: OrcRoom
+  dungeonRoomOptions:
+  - optionName: Run for the dagger on the table
+    requiredItem: 0
+    itemReward: 5
+    completedText: {fileID: 4900000, guid: 2c59b353343e2274dbc13d5fa4966d21, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: High kick the orc in the face
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 3ff28ba47146c8242ab2b5263145772e, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Walk up to the torch and try to take it
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: e1e052e807b37ca4fa2d393796542df9, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Attack orc with dagger
+    requiredItem: 5
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: bc242d93bd1955c4b92448924ae06a93, type: 3}
+    nextRoomID: OrcRoomSuccess
+  - optionName: Attack orc with wooden club
+    requiredItem: 6
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: c92ed7bcfc4c13c49a79dc66aa87ee99, type: 3}
+    nextRoomID: OrcRoomSuccess

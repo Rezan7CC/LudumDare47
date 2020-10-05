@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: SkeletonRoom
+  m_EditorClassIdentifier: 
+  roomText: {fileID: 4900000, guid: ee177e33adfa35145a67f5f36fb0c14c, type: 3}
+  roomID: SkeletonRoom
+  dungeonRoomOptions:
+  - optionName: Panic!
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 7404aba0a4289d049a5b0aeca5acbe72, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Attack skeleton with dagger
+    requiredItem: 5
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 8119aefbcf2e4624fbfa1487e22855bd, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Attack skeleton with wooden club
+    requiredItem: 6
+    itemReward: 7
+    completedText: {fileID: 4900000, guid: 78d896db705451e4788afa144b567cbb, type: 3}
+    nextRoomID: EnteredDungeon

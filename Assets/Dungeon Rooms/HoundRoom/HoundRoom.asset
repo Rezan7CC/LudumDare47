@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: HoundRoom
+  m_EditorClassIdentifier: 
+  roomText: {fileID: 4900000, guid: 0ec7cbfb0d7989648955e02ce75f8f1e, type: 3}
+  roomID: HoundRoom
+  dungeonRoomOptions:
+  - optionName: Panic!
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 1b8c97118ecf1a348be544f6e5dec4b3, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Attack hound with dagger
+    requiredItem: 5
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 0106af79af3120a45899627e058ada59, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Attack hound with wooden club
+    requiredItem: 6
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: d51b264b43ba6b94a934e519b7d84838, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Give skeleton bones to hound
+    requiredItem: 7
+    itemReward: 2
+    completedText: {fileID: 4900000, guid: fd753f1586a5ef14c929f19944e9ec0d, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Give dog food to hound
+    requiredItem: 9
+    itemReward: 2
+    completedText: {fileID: 4900000, guid: b24129994094562469548ce9803a2907, type: 3}
+    nextRoomID: EnteredDungeon

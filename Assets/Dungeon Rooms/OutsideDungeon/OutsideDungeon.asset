@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: OutsideDungeon
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonRoom
+  roomText: {fileID: 4900000, guid: 5e19576deaa7d504c856315d23c66649, type: 3}
+  roomID: OutsideDungeon
+  dungeonRoomOptions:
+  - optionName: Enter dungeon
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: b5190fd94558a0e41800ee1f54236443, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Ignore dungeon and continue riding your bike home
+    requiredItem: 0
+    itemReward: 9
+    completedText: {fileID: 4900000, guid: 684068d8a0dacf443b5a95366b4ecc6c, type: 3}
+    nextRoomID: FinishRoom

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7606957c4fa1e46a13867b73434b34, type: 3}
+  m_Name: ClimbedUpPath
+  m_EditorClassIdentifier: 
+  roomText: {fileID: 4900000, guid: 1b9eb20f6230850488b34672e994ab13, type: 3}
+  roomID: ClimbedUpPath
+  dungeonRoomOptions:
+  - optionName: Try to run through the flames
+    requiredItem: 0
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: d1586e7fce3a64243bf6e00731e94697, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Try to extinguish fire with torch
+    requiredItem: 1
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: 63e95b8b2ca10c9498a3c3110dc47824, type: 3}
+    nextRoomID: EnteredDungeon
+  - optionName: Try to extinguish fire with water flask
+    requiredItem: 8
+    itemReward: 0
+    completedText: {fileID: 4900000, guid: ba411d95cbd184b44a20fbfe701c1ef5, type: 3}
+    nextRoomID: SkeletonRoom
